@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "CI=true npm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "build",
   "devCommand": "npm start",
   "installCommand": "npm install",
