@@ -34,7 +34,7 @@ This file is automatically ignored by Git (it's in `.gitignore`), so it won't be
 4. **Add the Environment Variable:**
    - Click **Add New**
    - **Key:** `REACT_APP_API_URL`
-   - **Value:** `https://your-backend.vercel.app/api` (replace with your actual backend URL)
+   - **Value:** `https://salt-aware2-0-g95e.vercel.app/api` (your actual backend URL)
    - **Environment:** Select all three:
      - ✅ Production
      - ✅ Preview  
@@ -52,7 +52,7 @@ This file is automatically ignored by Git (it's in `.gitignore`), so it won't be
 | Environment | Where to Set | Value Format |
 |------------|--------------|--------------|
 | **Local Dev** | `client/.env` file | `http://localhost:5000/api` |
-| **Vercel Production** | Vercel Dashboard → Settings → Environment Variables | `https://your-backend.vercel.app/api` |
+| **Vercel Production** | Vercel Dashboard → Settings → Environment Variables | `https://salt-aware2-0-g95e.vercel.app/api` |
 
 ### Important Notes
 
@@ -64,9 +64,9 @@ This file is automatically ignored by Git (it's in `.gitignore`), so it won't be
 
 ### Example Backend URLs
 
-After deploying your backend to Vercel, you'll get a URL like:
-- `https://salt-aware-backend.vercel.app`
-- Your API endpoints will be:
-  - `https://salt-aware-backend.vercel.app/api/recommend`
-  - `https://salt-aware-backend.vercel.app/api/recipes`
-- So set `REACT_APP_API_URL` to: `https://salt-aware-backend.vercel.app/api`
+Your backend is deployed at:
+- `https://salt-aware2-0-g95e.vercel.app`
+- Your API endpoints are:
+  - `https://salt-aware2-0-g95e.vercel.app/api/recommend`
+  - `https://salt-aware2-0-g95e.vercel.app/api/recipes`
+- Set `REACT_APP_API_URL` to: `https://salt-aware2-0-g95e.vercel.app/api`
